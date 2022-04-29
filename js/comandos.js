@@ -7,3 +7,4 @@ botao.addEventListener("click", function inicio(){
     alert("Olá, " + nome +  "! Vamos começar o jogo?")
 })
 
+
