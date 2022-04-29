@@ -1,4 +1,17 @@
 body{
     background-color: black;
     color: white;
+    padding: 100px;
+}
+.enredo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+img{
+    width: 200px;
+    height: 200px;
 }
