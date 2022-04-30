@@ -40,10 +40,10 @@ botao.addEventListener("click", function jogoFelicia(){
     }
     if (pergunta6 === "2"){
         alert("Você venceu!!");
-        window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/venceu.html")
+        window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/venceuFelicia.html")
     } else {
         alert("Você errou! Comece de novo.");
-        window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/venceuFelicia.html");
+        window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/index.html");
 
     }
 });
