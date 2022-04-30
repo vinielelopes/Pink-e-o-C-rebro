@@ -7,28 +7,28 @@ botao.addEventListener("click", function jogoPink(){
         var pergunta2 = prompt("2- Qual o nome da dona do Cérebro?\n 1- marisa\n 2- isa\n 3- felicia");
     } else {
         alert("Você errou! Comece de novo.");
-        window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/index.html");
+        window.location.pathname = ("/html/index.html");
     }
     if (pergunta2 === "3"){
         alert("Você acertou!");
         var pergunta3 = prompt("3- Onde Pink e Cérebro moram?\n 1- casa\n 2- árvore \n 3- laboratório ");
     } else {
         alert("Você errou! Comece de novo.");
-        window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/index.html");
+        window.location.pathname = ("/html/index.html");
     }
     if (pergunta3 === "3"){
         alert("Você acertou!");
         var pergunta4 = prompt("4- Você está quase lá! O que Cérebro fará hoje a noite?\n 1- conquistar o mundo\n 2- dormir\n 3- estudar");
     } else {
         alert("Você errou! Comece de novo.");
-        window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/index.html");
+        window.location.pathname = ("/html/index.html");
     }
     if (pergunta4 === "1"){
         alert("Você venceu!!!");
-        window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/venceu.html")
+        window.location.pathname = ("/html/venceu.html")
     } else {
         alert("Você errou! Comece de novo.");
-        window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/index.html");
+        window.location.pathname = ("/html/index.html");
     }
 
 });
