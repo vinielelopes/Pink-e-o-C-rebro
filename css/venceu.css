@@ -10,3 +10,7 @@ body{
     justify-content: center;
     border: 1px solid white;
 }
+*{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto Mono', monospace;
+}

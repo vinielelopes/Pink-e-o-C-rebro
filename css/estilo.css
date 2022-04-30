@@ -23,3 +23,7 @@ body{
     background-position: 10% 25%;
     background-size: cover;
 }
+*{
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Roboto Mono', monospace;  
+}
