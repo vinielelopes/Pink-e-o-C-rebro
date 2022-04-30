@@ -32,7 +32,7 @@ botao.addEventListener("click", function jogoFelicia(){
     }
     if (pergunta5 === "apertar"){
         alert("Você acertou!");
-        var pergunta6 = prompt("6- Você está quase lá!! Qual desenho de animação está no rebot com Pink e o Cérebro? ")
+        var pergunta6 = prompt("6- Você está quase lá!! Qual desenho de animação está no reboot com Pink e o Cérebro? ")
     } else {
         alert("Você errou! Comece de novo.");
         window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/index.html");
@@ -43,7 +43,7 @@ botao.addEventListener("click", function jogoFelicia(){
         window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/venceu.html")
     } else {
         alert("Você errou! Comece de novo.");
-        window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/index.html");
+        window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/venceuFelicia.html");
 
     }
 });

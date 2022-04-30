@@ -23,9 +23,9 @@ botao.addEventListener("click", function jogoCerebro(){
         alert("Você errou! Comece de novo.");
         window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/index.html");
     }
-    if (pergunta4 === "28"){
+    if (pergunta4 === "21"){
         alert("Você acertou!");
-        var pergunta5 = prompt("5- Você está quase lá! Quanto é 5 x 5 + 3 / 2?");
+        var pergunta5 = prompt("5- Você está quase lá! Quanto é (5 x 5 + 3) / 2?");
     } else {
         alert("Você errou! Comece de novo.");
         window.location = ("file:///Users/vinielelopes/Downloads/projeto1/html/index.html");
