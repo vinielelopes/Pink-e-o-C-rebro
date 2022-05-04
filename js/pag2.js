@@ -7,7 +7,7 @@ botaoEscolha.addEventListener("click", function personagem(){
     } else if (document.getElementById("Felicia").checked){
         alert("Você escolheu " + document.getElementById("Felicia").value);
         window.location.pathname = ("/Pink-e-o-Cerebro/html/pagFelicia");
-    } else if (document.getElementById("Cerebro").checked){
+    } else if (document.getElementById("cerebro").checked){
         alert("Você escolheu " + document.getElementById("Cerebro").value);
         window.location.pathname = ("/Pink-e-o-Cerebro/html/pagCerebro");
     } else {
