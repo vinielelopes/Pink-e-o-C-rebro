@@ -3,8 +3,8 @@ const botao = document.getElementById("bot");
 botao.addEventListener("click", function jogoPink(){
     var pergunta1 = ""
     while (pergunta1 != 1 && pergunta1 != 2 && pergunta1 != 3) {
-    var pergunta1 = prompt("1- Que animal o Cérebro é?\n 1- gato\n 2- rato \n 3- macaco");
-        if (pergunta1 === 2){
+        var pergunta1 = prompt("1- Que animal o Cérebro é?\n 1- gato\n 2- rato \n 3- macaco");
+        if (pergunta1 === "2"){
             alert("Você acertou!");
             var pergunta2 = prompt("2- Qual o nome da dona do Cérebro?\n 1- marisa\n 2- isa\n 3- felicia");
         } else {
